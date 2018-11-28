@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  
+    
 
   def index
     @articles = Article.all
@@ -12,4 +12,16 @@ class ArticlesController < ApplicationController
   def new
     @article = Article.new
   end
+
+  def create
+    @article = Article.new(article_params)
+    @article.save
+    redirect_to article_path(@article)
+  end
+
+  private
+
+    def article_params
+      params.rerquire(:article).permit(:title, :body)
+    end
 end
