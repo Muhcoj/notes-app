@@ -1,24 +1,17 @@
-# README
+# Personal Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a personal notes/references app. 
 
-Things you may want to cover:
 
-* Ruby version
+## Models
+* Authentication
+* Articles
+* Tags
 
-* System dependencies
+## Features
+* CKeditor implementation
 
-* Configuration
+## UI
+* Bootstrap
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
